@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Mystagram",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "mystagram-application",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.companyname.appname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.companyname.appname",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
